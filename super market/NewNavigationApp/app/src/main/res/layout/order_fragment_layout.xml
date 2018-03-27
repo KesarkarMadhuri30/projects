@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/orderlayout"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/listview_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="5dp"
+            android:divider="#E6E6E6"
+            />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_order"
+            android:text="Total prize: Rs."
+            android:textSize="25dp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/totalprize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/listview_order"
+            android:text="2000"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_toEndOf="@+id/total"
+            android:layout_toRightOf="@+id/total" />
+
+        <Button
+            android:id="@+id/buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/total"
+            android:layout_marginLeft="150dp"
+            android:text="Buy Now"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            />
+
+    </RelativeLayout>
+
+
+<include
+    android:id="@+id/layout_orderlist_empty"
+layout="@layout/empty_orderlist_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:visibility="gone"
+    />
+
+
+</RelativeLayout>

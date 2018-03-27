@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/product_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:scaleX="1"
+        android:scaleY="1"
+        />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/product_image"
+        android:text="Kelloggs Corn Flakes Hon"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/product_image" />
+
+    <TextView
+        android:id="@+id/product_mrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/product_name"
+        android:layout_below="@+id/product_name"
+        android:layout_marginTop="5dp"
+        android:text="MRP: "
+        android:textSize="16dp"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@+id/product_Mrpvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/product_mrp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/product_mrp"
+        android:text="Rs.20000"
+        android:textSize="16dp"
+        android:textColor="#757575"/>
+
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_mrp"
+        android:layout_toEndOf="@+id/product_image"
+        android:layout_alignLeft="@+id/product_name"
+        android:layout_marginTop="5dp"
+        android:text="Rs."
+        android:textColor="#191919"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/product_image" />
+
+    <TextView
+        android:id="@+id/product_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_mrp"
+        android:layout_alignLeft="@+id/product_name"
+        android:layout_toEndOf="@+id/product"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:text=" 5000"
+        android:textColor="#191919"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/product" />
+
+    <ImageView
+        android:id="@+id/add_to_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_shopping_cart_green"
+        android:layout_below="@+id/product_name"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/product_value"
+        android:layout_marginTop="5dp"
+        android:background="#c1bebe"
+        />
+
+</RelativeLayout>

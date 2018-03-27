@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Big Bazzar</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="Big_Bazaar">Big Bazaar</string>
+    <string name="selected_item">Selected item</string>
+
+    <string name="error_incorrect_password">This password is incorrect</string>
+
+    <string-array name="MainMenu">
+        <item>Fruits and Vegeterables</item>
+        <item>Personal Care</item>
+        <item>Home Need</item>
+        <item>Beverages</item>
+        <item>Kids Utilities</item>
+    </string-array>
+
+    <string-array name="fruit">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+
+    </string-array>
+
+    <string-array name="personalCare">
+        <item>Baby Care</item>
+        <item>Cosmetics</item>
+        <item>Hair Care</item>
+        <item>Skin Care</item>
+        <item>Fashion Accessories</item>
+
+    </string-array>
+
+    <string-array name="homeneed">
+        <item>Cookeware</item>
+        <item>Clining Accessories</item>
+    </string-array>
+
+    <string-array name="Beverage">
+        <item>Health Drinks</item>
+        <item>Soft Drinks</item>
+        <item>Mineral Water</item>
+        <item>Coffee and Tea</item>
+        <item>Milk</item>
+    </string-array>
+
+    <string-array name="Kids">
+        <item>School Supplies</item>
+        <item>Chocolate</item>
+        <item>Icecream</item>
+        <item>Wafers</item>
+        <item>Biscuits</item>
+    </string-array>
+
+
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_title">movie title</string>
+    <string name="action_movies">Action</string>
+    <string name="musical_movies">Musical</string>
+    <string name="drama_movies">Drama</string>
+    <string name="comedy_movies">Comedy</string>
+    <string name="thriller_movies">Thriller</string>
+    <string name="movie_genre">genre</string>
+</resources>
